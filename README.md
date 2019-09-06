@@ -16,7 +16,7 @@
 ( In Visual Studio Code Editor,you can run the index.html file with Live Sever.)
 
 ## Snapshots
-![Example screenshot](./snapshot/tdl1.png) 
+![Example snapshot](./snapshot/tdl1.png) 
 
 ## Contact
 [Hemanth Kumar Woraram](https://hemanthkumarw.com/) - feel free to contact me!
