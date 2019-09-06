@@ -15,7 +15,7 @@
 * Step 1: Open the index.html in any browser and the browser automatically interprets coding and displays it. 
 ( In Visual Studio Code Editor,you can run the index.html file with Live Sever.)
 
-## snapshots
+## Snapshots
 ![Example snapshot](./snapshot/tdl1.PNG) 
 
 ## Contact
