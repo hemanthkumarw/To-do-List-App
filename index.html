@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>To-do-List</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="shortcut icon" href="img.png">
+</head>
+<body>
+<header id="main-header" class="bg-success text-white p-4 mb-3" style="background-color:blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1 mr-3">
+          <img src="img.png" width="100px" height="100px">
+        </div>
+		<div class="col-md-4">
+            <h1 id="header-title">TO-DO LISTS</h1>
+			<span>It's really simple to manage your task lists now!<span>
+        </div>
+        <div class="col-md-6 align-self-center">
+            <input type="text" class="form-control" id="filter" placeholder="Search Your Task Here">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+   <div id="main" class="card card-body">
+    <h2 class="title">Add Task</h2>
+    <form id="addForm" class="form-inline mb-3">
+      <input type="text" class="form-control mr-2" id="item">
+      <input type="submit" class="btn btn-dark" value="Add Task">
+    </form>
+    <h2 class="title">Task Lists</h2>
+    <ul id="items" class="list-group">
+      <li class="list-group-item">Complete Lab Assignment <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+      <li class="list-group-item">Meet Professor <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+      <li class="list-group-item">Update Project Log <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+      <li class="list-group-item">Renew Domain Name<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+    </ul>
+   </div>
+  </div>
+  <script src="js/main.js"> </script>
+  </body>
+  </html>
+  
